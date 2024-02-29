@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="flex flex-col text-center mb-5">
       <h1 className="text-4xl text-blue-400 my-9">PAGINATION</h1>
-      <div className="p-2 flex flex-wrap gap-5 justify-center">
+      <div className="p-3 flex flex-wrap gap-5 justify-center">
         {filteredProducts.map((item) => (
           <Item key={item.id} {...item} />
         ))}
